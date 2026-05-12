@@ -1,0 +1,2 @@
+Le sequenze contenute in merging_test1.fq.gz e merging_test2.fq.gz, sono da utilizzare per il merging delle PE reads.
+ref.fa contiene le sequenze di riferimento con cui effettuare il clustering

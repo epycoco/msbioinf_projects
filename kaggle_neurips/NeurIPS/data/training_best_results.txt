@@ -1,0 +1,143 @@
+Tg
+	XGB...
+	01:31 REPORT - Optimized hyperparameters: {'n_estimators': (331, 1568), 'learning_rate': (0.010588011790641484, 0.15360130393226834), 'max_depth': (3, 8), 'reg_lambda': (36.63618433570556, 94.88855372584447), 'reg_alpha': (25.877998167413896, 99.40058090953322), 'subsample': (0.8378446466918766, 0.9995784073374041), 'colsample_bytree': (0.6798695128633439, 0.9968147883372204), 'colsample_bylevel': (0.6296178606936361, 0.8536378405251577), 'min_child_weight': (6.326479414039312, 19.801111200830743), 'gamma': (0.46450412719997725, 9.745337621486987)}
+	02:14 INFO -    [Trial 27] hyperparameters = {'n_estimators': 665, 'learning_rate': 0.023118300766604868, 'max_depth': 5, 'reg_lambda': 36.84034191098182, 'reg_alpha': 89.79625152586043, 'subsample': 0.9404488735373797, 'colsample_bytree': 0.8956277765508576, 'colsample_bylevel': 0.7145058708564048, 'min_child_weight': 12.8473595322564, 'gamma': 9.5219591462763, 'tree_method': 'hist', 'random_state': 68, 'n_jobs': -1}
+	02:14 REPORT -  [Trial 27 | seed=68] Mean CV MAE = 86.5458 | R2 = 0.1653
+
+	RFF...
+	13:34 REPORT - Optimized hyperparameters: {'n_estimators': (55, 942), 'max_depth': (11, 20), 'min_samples_split': (8, 19), 'min_samples_leaf': (1, 10)}
+	23:38 INFO -    [Trial 14] hyperparameters = {'n_estimators': 667, 'max_depth': 16, 'min_samples_split': 14, 'min_samples_leaf': 4, 'max_features': 0.5, 'bootstrap': True, 'min_impurity_decrease': 0.09960165317474354, 'random_state': 55}
+	23:38 REPORT -  [Trial 14 | seed=55] Mean CV MAE = 86.7228 | R2 = 0.1680
+
+	ET...
+	14:43 REPORT - Optimized hyperparameters: {'n_estimators': (55, 994), 'max_depth': (9, 25), 'min_samples_split': (12, 20), 'min_samples_leaf': (1, 11)}
+	19:32 INFO -    [Trial 37] hyperparameters = {'n_estimators': 774, 'max_depth': 18, 'min_samples_split': 20, 'min_samples_leaf': 5, 'max_features': None, 'bootstrap': True, 'min_impurity_decrease': 0.07341650134328534, 'random_state': 78}
+	19:32 REPORT -  [Trial 37 | seed=78] Mean CV MAE = 85.9815 | R2 = 0.1782
+
+	HGB...
+	21:06 REPORT - Optimized hyperparameters: {'max_iter': (240, 1943), 'max_depth': (3, 17), 'learning_rate': (0.010578521464021193, 0.19455901926649632), 'min_samples_leaf': (13, 200), 'l2_regularization': (18.34045099350934, 99.93518489320832), 'max_leaf_nodes': (18, 909)}
+	22:10 INFO -    [Trial 29] hyperparameters = {'max_iter': 1616, 'max_depth': 12, 'learning_rate': 0.010687129999637909, 'min_samples_leaf': 23, 'l2_regularization': 54.12259033411638, 'max_leaf_nodes': 25, 'max_bins': 128, 'validation_fraction': 0.19519449352558454, 'n_iter_no_change': 15, 'random_state': 70}
+	22:10 REPORT -  [Trial 29 | seed=70] Mean CV MAE = 86.9320 | R2 = 0.1532
+	
+	GBR...
+	23:20 REPORT - Optimized hyperparameters: {'n_estimators': (178, 1170), 'learning_rate': (0.02347061968879934, 0.22276609069211695), 'max_depth': (3, 10), 'min_samples_split': (5, 20), 'min_samples_leaf': (1, 15), 'subsample': (0.7085396127095583, 0.9945867267826687), 'min_impurity_decrease': (0.0011621060465457148, 0.08021970005343416), 'n_iter_no_change': (6, 20)}
+	01:28 INFO -    [Trial 36] hyperparameters = {'n_estimators': 845, 'learning_rate': 0.024502076012950628, 'max_depth': 7, 'min_samples_split': 19, 'min_samples_leaf': 4, 'subsample': 0.7656876722481724, 'min_impurity_decrease': 0.028911189489835412, 'n_iter_no_change': 19, 'max_features': 0.5, 'validation_fraction': 0.1347936188729195, 'random_state': 77}
+	01:28 REPORT -  [Trial 36 | seed=77] Mean CV MAE = 87.3515 | R2 = 0.1695
+		
+
+
+FFV
+	XGB...
+	13:45 REPORT - Optimized hyperparameters: {'n_estimators': (139, 1263), 'learning_rate': (0.017893517653447127, 0.29127385712697834), 'max_depth': (3, 11), 'reg_lambda': (21.233911075704228, 94.88855372584447), 'reg_alpha': (0.28432820103379797, 96.56320330779961), 'subsample': (0.6047606839380596, 0.9233589392465844), 'colsample_bytree': (0.6232334448672797, 0.9968147883372204), 'colsample_bylevel': (0.6390688456025535, 0.9995766556855465), 'min_child_weight': (8.922927863521258, 19.96251691568986), 'gamma': (0.46450412719997725, 7.808078155721442)}
+	13:47 INFO -    [Trial 17] hyperparameters = {'n_estimators': 139, 'learning_rate': 0.19114838694131941, 'max_depth': 10, 'reg_lambda': 52.666770111252134, 'reg_alpha': 35.29149749330707, 'subsample': 0.6123100007026353, 'colsample_bytree': 0.6986194952298582, 'colsample_bylevel': 0.7795459498915027, 'min_child_weight': 16.831420092652234, 'gamma': 2.8169426873434587, 'tree_method': 'hist', 'random_state': 58, 'n_jobs': -1}
+	13:47 REPORT -  [Trial 17 | seed=58] Mean CV MAE = 0.0177 | R2 = -0.0004
+
+	RFF...
+	14:44 REPORT - Optimized hyperparameters: {'n_estimators': (55, 942), 'max_depth': (4, 19), 'min_samples_split': (8, 20), 'min_samples_leaf': (4, 9)}
+	15:38 INFO -    [Trial 24] hyperparameters = {'n_estimators': 56, 'max_depth': 7, 'min_samples_split': 13, 'min_samples_leaf': 7, 'max_features': None, 'bootstrap': True, 'min_impurity_decrease': 0.05844827968951411, 'random_state': 65}
+	15:38 REPORT -  [Trial 24 | seed=65] Mean CV MAE = 0.0177 | R2 = -0.0003
+	
+	ET...
+	16:17 REPORT - Optimized hyperparameters: {'n_estimators': (55, 942), 'max_depth': (5, 24), 'min_samples_split': (8, 20), 'min_samples_leaf': (6, 15)}
+	16:24 INFO -    [Trial 24] hyperparameters = {'n_estimators': 56, 'max_depth': 5, 'min_samples_split': 13, 'min_samples_leaf': 8, 'max_features': None, 'bootstrap': True, 'min_impurity_decrease': 0.05844827968951411, 'random_state': 65}
+	16:24 REPORT -  [Trial 24 | seed=65] Mean CV MAE = 0.0177 | R2 = -0.0003
+
+	HGB...
+	17:08 REPORT - Optimized hyperparameters: {'max_iter': (591, 1943), 'max_depth': (4, 17), 'learning_rate': (0.04468233132210749, 0.16196037314324419), 'min_samples_leaf': (13, 146), 'l2_regularization': (18.34045099350934, 76.07850486408189), 'max_leaf_nodes': (31, 902)}
+	18:30 INFO -    [Trial 39] hyperparameters = {'max_iter': 1821, 'max_depth': 6, 'learning_rate': 0.07409154887225544, 'min_samples_leaf': 59, 'l2_regularization': 49.7509457182822, 'max_leaf_nodes': 232, 'max_bins': 64, 'validation_fraction': 0.23186626327451823, 'n_iter_no_change': 8, 'random_state': 80}
+	18:30 REPORT -  [Trial 39 | seed=80] Mean CV MAE = 0.0061 | R2 = 0.8460
+	
+	GBR...
+	18:39 REPORT - Optimized hyperparameters: {'n_estimators': (733, 1494), 'learning_rate': (0.13303792512419357, 0.2443549100736809), 'max_depth': (8, 12), 'min_samples_split': (3, 20), 'min_samples_leaf': (9, 15), 'subsample': (0.6047606839380596, 0.879403083038881), 'min_impurity_decrease': (0.0002434058150064303, 0.028227118979225096), 'n_iter_no_change': (9, 18)}
+	18:46 INFO -    [Trial 13] hyperparameters = {'n_estimators': 1124, 'learning_rate': 0.20454849100535077, 'max_depth': 12, 'min_samples_split': 19, 'min_samples_leaf': 15, 'subsample': 0.8032073123861584, 'min_impurity_decrease': 0.00033097233746074285, 'n_iter_no_change': 15, 'max_features': 0.5, 'validation_fraction': 0.155693908544396, 'random_state': 54}
+	18:46 REPORT -  [Trial 13 | seed=54] Mean CV MAE = 0.0080 | R2 = 0.7522
+	
+
+
+Tc	
+	XGB...
+	19:07 REPORT - Optimized hyperparameters: {'n_estimators': (123, 1943), 'learning_rate': (0.05045321958909213, 0.29127385712697834), 'max_depth': (3, 12), 'reg_lambda': (5.887822722653992, 94.88855372584447), 'reg_alpha': (3.3632604920679405, 96.56320330779961), 'subsample': (0.6378133308102593, 0.9687496940092467), 'colsample_bytree': (0.6027514361354958, 0.9085081386743783), 'colsample_bylevel': (0.6296178606936361, 0.9976161494520414), 'min_child_weight': (1.3819321337554924, 17.80064848023837), 'gamma': (0.46450412719997725, 9.868869366005173)}
+	19:08 INFO -    [Trial 17] hyperparameters = {'n_estimators': 124, 'learning_rate': 0.20307336834886866, 'max_depth': 11, 'reg_lambda': 43.869779202605464, 'reg_alpha': 37.25092455713375, 'subsample': 0.6456550041185029, 'colsample_bytree': 0.664450957750249, 'colsample_bylevel': 0.7730137387917236, 'min_child_weight': 13.14389990491619, 'gamma': 3.4770959980675906, 'tree_method': 'hist', 'random_state': 58, 'n_jobs': -1}
+	19:08 REPORT -  [Trial 17 | seed=58] Mean CV MAE = 0.0653 | R2 = -0.0041
+	
+	RFF...
+	19:22 REPORT - Optimized hyperparameters: {'n_estimators': (156, 953), 'max_depth': (6, 20), 'min_samples_split': (2, 20), 'min_samples_leaf': (2, 10)}
+	19:29 INFO -    [Trial 7] hyperparameters = {'n_estimators': 160, 'max_depth': 18, 'min_samples_split': 15, 'min_samples_leaf': 8, 'max_features': 0.8, 'bootstrap': True, 'min_impurity_decrease': 0.006355835028602364, 'random_state': 48}
+	19:29 REPORT -  [Trial 7 | seed=48] Mean CV MAE = 0.0653 | R2 = -0.0042
+	
+	ET...
+	19:50 REPORT - Optimized hyperparameters: {'n_estimators': (156, 953), 'max_depth': (7, 25), 'min_samples_split': (2, 20), 'min_samples_leaf': (2, 15)}
+	19:51 INFO -    [Trial 7] hyperparameters = {'n_estimators': 160, 'max_depth': 22, 'min_samples_split': 15, 'min_samples_leaf': 12, 'max_features': 0.8, 'bootstrap': True, 'min_impurity_decrease': 0.006355835028602364, 'random_state': 48}
+	19:51 REPORT -  [Trial 7 | seed=48] Mean CV MAE = 0.0653 | R2 = -0.0042
+	
+	HGB...
+	20:09 REPORT - Optimized hyperparameters: {'max_iter': (305, 1993), 'max_depth': (3, 19), 'learning_rate': (0.011035283413750208, 0.19455901926649632), 'min_samples_leaf': (10, 106), 'l2_regularization': (0.9699705211915663, 54.67102793886087), 'max_leaf_nodes': (193, 909)}
+	20:44 INFO -    [Trial 38] hyperparameters = {'max_iter': 349, 'max_depth': 4, 'learning_rate': 0.05355969222929165, 'min_samples_leaf': 20, 'l2_regularization': 13.566272991079067, 'max_leaf_nodes': 348, 'max_bins': 128, 'validation_fraction': 0.11645470606069097, 'n_iter_no_change': 13, 'random_state': 79}
+	20:44 REPORT -  [Trial 38 | seed=79] Mean CV MAE = 0.0424 | R2 = 0.4529
+
+	GBR...
+	14:25 REPORT - Optimized hyperparameters: {'n_estimators': (655, 1494), 'learning_rate': (0.10096015149736792, 0.2443549100736809), 'max_depth': (7, 12), 'min_samples_split': (8, 20), 'min_samples_leaf': (9, 15), 'subsample': (0.6047606839380596, 0.8771538385066692), 'min_impurity_decrease': (0.00042504071997460945, 0.03491040324189033), 'n_iter_no_change': (10, 18)}
+	14:30 INFO -    [Trial 24] hyperparameters = {'n_estimators': 875, 'learning_rate': 0.10549453113173361, 'max_depth': 9, 'min_samples_split': 20, 'min_samples_leaf': 14, 'subsample': 0.8400970217828108, 'min_impurity_decrease': 0.01911320365480305, 'n_iter_no_change': 11, 'max_features': None, 'validation_fraction': 0.15107830218604082, 'random_state': 65}
+	14:30 REPORT -  [Trial 24 | seed=65] Mean CV MAE = 0.0445 | R2 = 0.4221
+
+
+
+
+Density
+	XGB...
+	02:15 REPORT - Optimized hyperparameters: {'n_estimators': (101, 1263), 'learning_rate': (0.05045321958909213, 0.29127385712697834), 'max_depth': (3, 11), 'reg_lambda': (21.233911075704228, 90.932040208785), 'reg_alpha': (0.26463912142749485, 45.6069984271429), 'subsample': (0.6083654265933616, 0.9140703845572055), 'colsample_bytree': (0.6232334448672797, 0.996380128364447), 'colsample_bylevel': (0.6816731945441582, 0.9464704583099741), 'min_child_weight': (3.8068398230611615, 18.96575658960791), 'gamma': (0.46450412719997725, 7.384055447250207)}
+	02:18 INFO -    [Trial 36] hyperparameters = {'n_estimators': 718, 'learning_rate': 0.15355933394101348, 'max_depth': 9, 'reg_lambda': 70.35601308702022, 'reg_alpha': 3.7214837661271547, 'subsample': 0.7856087986213793, 'colsample_bytree': 0.9908430493529549, 'colsample_bylevel': 0.8105233371774541, 'min_child_weight': 10.440064518733706, 'gamma': 0.9655610685344459, 'tree_method': 'hist', 'random_state': 77, 'n_jobs': -1}
+	02:18 REPORT -  [Trial 36 | seed=77] Mean CV MAE = 0.0720 | R2 = 0.7088
+	
+	RFF...
+	02:34 REPORT - Optimized hyperparameters: {'n_estimators': (55, 701), 'max_depth': (7, 20), 'min_samples_split': (8, 17), 'min_samples_leaf': (4, 10)}
+	03:02 INFO -    [Trial 38] hyperparameters = {'n_estimators': 347, 'max_depth': 16, 'min_samples_split': 14, 'min_samples_leaf': 7, 'max_features': 0.5, 'bootstrap': False, 'min_impurity_decrease': 0.00017138556004903793, 'random_state': 79}
+	03:02 REPORT -  [Trial 38 | seed=79] Mean CV MAE = 0.0497 | R2 = 0.8423
+	
+	ET...
+	03:09 REPORT - Optimized hyperparameters: {'n_estimators': (55, 701), 'max_depth': (9, 25), 'min_samples_split': (9, 20), 'min_samples_leaf': (6, 15)}
+	03:17 INFO -    [Trial 33] hyperparameters = {'n_estimators': 559, 'max_depth': 25, 'min_samples_split': 19, 'min_samples_leaf': 14, 'max_features': None, 'bootstrap': False, 'min_impurity_decrease': 0.0001182025367881573, 'random_state': 74}
+	03:17 REPORT -  [Trial 33 | seed=74] Mean CV MAE = 0.0470 | R2 = 0.8544
+
+	HGB...
+	13:29 REPORT - Optimized hyperparameters: {'max_iter': (591, 1993), 'max_depth': (4, 17), 'learning_rate': (0.011035283413750208, 0.1809722349664816), 'min_samples_leaf': (13, 106), 'l2_regularization': (0.9699705211915663, 96.98439495855679), 'max_leaf_nodes': (35, 641)}
+	14:06 INFO -    [Trial 39] hyperparameters = {'max_iter': 1438, 'max_depth': 7, 'learning_rate': 0.036546394789148895, 'min_samples_leaf': 62, 'l2_regularization': 16.154347506060695, 'max_leaf_nodes': 486, 'max_bins': 64, 'validation_fraction': 0.2531482856328945, 'n_iter_no_change': 14, 'random_state': 80}
+	14:06 REPORT -  [Trial 39 | seed=80] Mean CV MAE = 0.0381 | R2 = 0.8814
+
+	GBR...
+	14:10 REPORT - Optimized hyperparameters: {'n_estimators': (501, 1398), 'learning_rate': (0.10104925185035771, 0.2443549100736809), 'max_depth': (5, 12), 'min_samples_split': (3, 20), 'min_samples_leaf': (9, 14), 'subsample': (0.6746280235544143, 0.9727267280588002), 'min_impurity_decrease': (0.011005201352248431, 0.04937956469848312), 'n_iter_no_change': (9, 16)}
+	14:18 INFO -    [Trial 34] hyperparameters = {'n_estimators': 1318, 'learning_rate': 0.10575460278996374, 'max_depth': 10, 'min_samples_split': 7, 'min_samples_leaf': 12, 'subsample': 0.938293688237223, 'min_impurity_decrease': 0.013166808491126563, 'n_iter_no_change': 15, 'max_features': 0.5, 'validation_fraction': 0.1176042086909752, 'random_state': 75}
+	14:18 REPORT -  [Trial 34 | seed=75] Mean CV MAE = 0.0419 | R2 = 0.8664
+
+
+
+Rg
+	XGB...
+	23:22 REPORT - Optimized hyperparameters: {'n_estimators': (587, 1740), 'learning_rate': (0.011739183057187047, 0.19075645677999178), 'max_depth': (5, 10), 'reg_lambda': (6.355835037966781, 72.7537262705662), 'reg_alpha': (0.47401197526157546, 52.59109390865479), 'subsample': (0.6022721432620826, 0.9977163178526613), 'colsample_bytree': (0.6798695128633439, 0.996380128364447), 'colsample_bylevel': (0.6790539671827293, 0.8628966265550307), 'min_child_weight': (12.052084092809828, 19.986150596866253), 'gamma': (0.02951894887944234, 8.690193908638017)}
+	23:37 INFO -    [Trial 36] hyperparameters = {'n_estimators': 1720, 'learning_rate': 0.04239469504911199, 'max_depth': 6, 'reg_lambda': 41.19761395639498, 'reg_alpha': 7.773451507089227, 'subsample': 0.7479369903711113, 'colsample_bytree': 0.7228705694867834, 'colsample_bylevel': 0.6996160401138163, 'min_child_weight': 17.23098729847593, 'gamma': 2.812815999749927, 'tree_method': 'hist', 'random_state': 77, 'n_jobs': -1}
+	23:37 REPORT -  [Trial 36 | seed=77] Mean CV MAE = 1.8343 | R2 = 0.7543
+
+	RFF...
+	00:38 REPORT - Optimized hyperparameters: {'n_estimators': (55, 952), 'max_depth': (7, 17), 'min_samples_split': (8, 20), 'min_samples_leaf': (1, 10)}
+	02:41 INFO -    [Trial 28] hyperparameters = {'n_estimators': 867, 'max_depth': 10, 'min_samples_split': 8, 'min_samples_leaf': 1, 'max_features': None, 'bootstrap': True, 'min_impurity_decrease': 0.026507901469922792, 'random_state': 69}
+	02:41 REPORT -  [Trial 28 | seed=69] Mean CV MAE = 1.9803 | R2 = 0.7233
+	
+	HGB...
+	05:12 REPORT - Optimized hyperparameters: {'max_iter': (965, 1993), 'max_depth': (3, 18), 'learning_rate': (0.011035283413750208, 0.15056757426396256), 'min_samples_leaf': (10, 85), 'l2_regularization': (0.6189586377589442, 33.69340845875296), 'max_leaf_nodes': (311, 983)}
+	05:33 INFO -    [Trial 31] hyperparameters = {'max_iter': 1310, 'max_depth': 5, 'learning_rate': 0.06873211539129565, 'min_samples_leaf': 16, 'l2_regularization': 2.868021427373949, 'max_leaf_nodes': 403, 'max_bins': 64, 'validation_fraction': 0.256965132336692, 'n_iter_no_change': 17, 'random_state': 72}
+	05:33 REPORT -  [Trial 31 | seed=72] Mean CV MAE = 1.7909 | R2 = 0.7593
+	
+	ET...
+	04:17 REPORT - Optimized hyperparameters: {'n_estimators': (419, 1000), 'max_depth': (7, 20), 'min_samples_split': (5, 17), 'min_samples_leaf': (1, 6)}
+	04:58 INFO -    [Trial 37] hyperparameters = {'n_estimators': 797, 'max_depth': 14, 'min_samples_split': 8, 'min_samples_leaf': 3, 'max_features': 0.5, 'bootstrap': False, 'min_impurity_decrease': 0.0006991728188996851, 'random_state': 78}
+	04:58 REPORT -  [Trial 37 | seed=78] Mean CV MAE = 1.7178 | R2 = 0.7790
+
+	GBR...
+	05:46 REPORT - Optimized hyperparameters: {'n_estimators': (288, 1170), 'learning_rate': (0.02347061968879934, 0.2310159155804581), 'max_depth': (3, 12), 'min_samples_split': (2, 17), 'min_samples_leaf': (1, 15), 'subsample': (0.7164916560792167, 0.9795542149013333), 'min_impurity_decrease': (0.0011621060465457148, 0.07851759828754175), 'n_iter_no_change': (6, 18)}
+	06:05 INFO -    [Trial 29] hyperparameters = {'n_estimators': 972, 'learning_rate': 0.045160225143196384, 'max_depth': 4, 'min_samples_split': 15, 'min_samples_leaf': 11, 'subsample': 0.9028383086686219, 'min_impurity_decrease': 0.04755373709164069, 'n_iter_no_change': 17, 'max_features': 0.8, 'validation_fraction': 0.12004205768137623, 'random_state': 70}
+	06:05 REPORT -  [Trial 29 | seed=70] Mean CV MAE = 1.8776 | R2 = 0.7496
+
+	ENSAMBLE..
+	06:14 REPORT - Top 2 models: ['ET', 'HGB']
+	06:14 REPORT - Best ensemble: weighted → 1.0994
+	00:45 REPORT - {'type': 'weighted', 'MAE': 1.099412868456909, 'preds': array([22.94973539, 21.25382018, 21.40125731]), 'weights': array([1., 0.])}
